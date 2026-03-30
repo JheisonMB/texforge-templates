@@ -1,0 +1,48 @@
+%% main.tex - Plantilla APA 7 General
+
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{array,caption,enumitem}
+\usepackage{fancyhdr,float,geometry}
+\usepackage{graphicx,hyperref,indentfirst}
+\usepackage{lmodern,longtable,microtype}
+\usepackage[nottoc]{tocbibind}
+\usepackage{titlesec,url,csquotes}
+
+\geometry{top=3cm,bottom=3cm,left=3cm,right=3cm}
+
+\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{-30pt}{20pt}
+\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}[block]{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+\numberwithin{equation}{chapter}
+\numberwithin{figure}{chapter}
+\numberwithin{table}{chapter}
+
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{\thepage}
+
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\title{Título del Documento}
+\author{Autor Principal}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}\newpage
+
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/literature}
+\input{sections/methodology}
+\input{sections/results}
+\input{sections/references}
+
+\end{document}

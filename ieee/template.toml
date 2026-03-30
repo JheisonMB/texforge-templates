@@ -1,0 +1,14 @@
+[metadata]
+nombre = "ieee"
+descripcion = "IEEE journal — artículos técnicos"
+idioma = "es"
+tipo = "article"
+
+[variables]
+requeridas = ["titulo", "autor"]
+opcionales = []
+
+[compatibilidad]
+mermaid = false
+graphviz = false
+bibliografia = "bibtex"

@@ -1,0 +1,14 @@
+[metadata]
+nombre = "letter"
+descripcion = "Carta formal — correspondencia empresarial en español"
+idioma = "es"
+tipo = "letter"
+
+[variables]
+requeridas = ["titulo", "autor"]
+opcionales = []
+
+[compatibilidad]
+mermaid = false
+graphviz = false
+bibliografia = "bibtex"

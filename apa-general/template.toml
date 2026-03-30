@@ -1,0 +1,14 @@
+[metadata]
+nombre = "apa-general"
+descripcion = "APA 7ma edición — reportes académicos y tesis"
+idioma = "es"
+tipo = "report"
+
+[variables]
+requeridas = ["titulo", "autor"]
+opcionales = []
+
+[compatibilidad]
+mermaid = false
+graphviz = false
+bibliografia = "bibtex"

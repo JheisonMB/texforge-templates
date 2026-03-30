@@ -1,0 +1,14 @@
+[metadata]
+nombre = "apa-unisalle"
+descripcion = "APA para Universidad de La Salle — propuesta de tesis"
+idioma = "es"
+tipo = "thesis"
+
+[variables]
+requeridas = ["titulo", "autor", "director", "programa"]
+opcionales = ["codigo", "correo"]
+
+[compatibilidad]
+mermaid = false
+graphviz = false
+bibliografia = "bibtex"
